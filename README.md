@@ -1,6 +1,6 @@
 # Info
-The code works on arduino mega2560 and can be taken as example to write arduino code in c.
-For educational purpose i implented a lot of adrduino basic functions in c.
+The code has been developed for arduino ATmega2560, and can be taken as example to write arduino code in c.
+No arduino libraries has been used, and all the basic arduino libraries has been reimplemented in C.
 
 # Configuration of arduino    
 
@@ -9,12 +9,10 @@ The left enconder has to be insert in digitals pins 53-52
 The right enconder has to be insert in digitals pins 51-50                      
 
 ### Controller                                                                               
-The controller can be insert in every analogic pin and then configured throught  
-client                                                                          
+The controller can be insert in every analogic pin and then configured throught the CLIENT                                                                          
 
 ### Motors                                                                                
-Every pwm pin and digital pin can be used to control motor and then configured  
-throught client                                                                   
+Every pwm pin and digital pin can be used to control motor and then configured using the CLIENT                                                                   
 
 ### Bridge                                                                             
 I used lm-298n as bridge for motors                                             
